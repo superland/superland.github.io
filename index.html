@@ -1,5 +1,13 @@
 <html>
-    <body>
-        <script src="dist/SuperLand.min.js"></script>
-    </body>
+
+<body>
+    <canvas id='superland'></canvas>
+    <script>
+        process.on("uncaughtException", function (e) {
+            console.log(e);
+        });
+    </script>
+    <script src="dist/SuperLand.min.js"></script>
+</body>
+
 </html>
